@@ -1,0 +1,7 @@
+import "./App.css";
+
+function App() {
+  return <div>start new project</div>;
+}
+
+export default App;
