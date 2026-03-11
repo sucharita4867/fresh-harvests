@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Navbar = () => {
-      return (
-            <div>
-                  this is navbar 
-            </div>
-      );
+  return <div className="text-xl border border-red-500">this is navbar</div>;
 };
 
 export default Navbar;
