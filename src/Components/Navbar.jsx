@@ -34,7 +34,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-black text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -70,16 +70,12 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-4">
         <ul className="flex gap-4">
-          <li>
-            <img className="border border-red-500" src={cart} alt="" />
+          <li className="border border-red-600 flex ">
+            <img className="border border-red-500" src={heart} alt="" />
             Favorites
           </li>
           <li className="border border-red-600 flex ">
-            <img
-              className="border border-red-500 text-red"
-              src={heart}
-              alt=""
-            />
+            <img className="border border-red-500 text-red" src={cart} alt="" />
             Cart
           </li>
         </ul>
