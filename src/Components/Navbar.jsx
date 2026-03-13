@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
 import Logo from "./Logo";
-import cart from './Shopping cart.png'
+import cart from "/Shopping cart .png";
+import heart from "/Heart.png";
 
 const Navbar = () => {
   const navClass = ({ isActive }) =>
@@ -69,8 +70,18 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-4">
         <ul className="flex gap-4">
-          <li>Favorites</li>
-          <li>Cart</li>
+          <li>
+            <img className="border border-red-500" src={cart} alt="" />
+            Favorites
+          </li>
+          <li className="border border-red-600 flex ">
+            <img
+              className="border border-red-500 text-red"
+              src={heart}
+              alt=""
+            />
+            Cart
+          </li>
         </ul>
         <a className="btn">Sine in</a>
       </div>
