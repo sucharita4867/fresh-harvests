@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
 import Logo from "./Logo";
+import cart from './Shopping cart.png'
 
 const Navbar = () => {
   const navClass = ({ isActive }) =>
@@ -66,7 +67,11 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">{links}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end gap-4">
+        <ul className="flex gap-4">
+          <li>Favorites</li>
+          <li>Cart</li>
+        </ul>
         <a className="btn">Sine in</a>
       </div>
     </div>
