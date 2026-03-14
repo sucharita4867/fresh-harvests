@@ -1,15 +1,22 @@
 import React from "react";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <div className="">
-      <footer className="footer border border-red-600 sm:footer-horizontal bg-base-200 text-base-content p-10">
+    <div className=" border border-red-600">
+      <footer className="footer  border border-black-600 sm:footer-horizontal bg-base-200 text-base-content p-10">
+        <div>
+          <Logo />
+        </div>
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <h6 className="font-medium text-xl text-primary">Quick links 1</h6>
+          <a className="link link-hover text-secondary text-base">Home</a>
+          <a className="link link-hover text-secondary text-base">Shop</a>
+          <a className="link link-hover text-secondary text-base">About us</a>
+          <a className="link link-hover text-secondary text-base">Blog</a>
+          <a className="link link-hover text-secondary text-base">
+            Detail Blog
+          </a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>
