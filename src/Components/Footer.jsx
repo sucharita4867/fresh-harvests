@@ -1,5 +1,11 @@
 import React from "react";
 import Logo from "./Logo";
+import visa from "/Visa.png";
+import paypal from "/Paypal.png";
+import applepay from "/ApplePay.png";
+import { CiLocationOn } from "react-icons/ci";
+import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -19,17 +25,34 @@ const Footer = () => {
           </a>
         </nav>
         <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <h6 className="font-medium text-xl text-primary">Quick links 2</h6>
+          <a className="link link-hover text-secondary text-base">Favorites</a>
+          <a className="link link-hover text-secondary text-base">Cart</a>
+          <a className="link link-hover text-secondary text-base">Sign in</a>
+          <a className="link link-hover text-secondary text-base">Register</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="font-medium text-xl text-primary">Contact us</h6>
+          <a className="link link-hover text-secondary text-base flex gap-2 items-center justify-center">
+            <MdOutlinePhone className="text-[#749b3f] text-xl" />
+            1234 5678 90
+          </a>
+          <a className="link link-hover text-secondary text-base flex gap-2 items-center justify-center">
+            <MdOutlineEmail className="text-[#749b3f] text-xl" />
+            Freshharvests@gmail.com
+          </a>
+          <a className="link link-hover text-secondary text-base flex gap-2 items-center justify-center">
+            <IoLocationOutline className="text-[#749b3f] text-xl" />
+            Tanjung Sari Street, Pontianak, Indonesia
+          </a>
+          <a className="link link-hover mt-2 text-secondary text-base">
+            Accepted Payment Methods:
+          </a>
+          <div className="flex justify-center items-center gap-2">
+            <img src={visa} alt="" />
+            <img src={paypal} alt="" />
+            <img src={applepay} alt="" />
+          </div>
         </nav>
       </footer>
       <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
