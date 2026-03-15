@@ -74,7 +74,7 @@ const Navbar = () => {
             <img className="border border-red-500" src={heart} alt="" />
             Favorites
           </li>
-          <li className="border border-red-600 flex ">
+          <li className="border border-red-700 flex ">
             <img className="border border-red-500 text-red" src={cart} alt="" />
             Cart
           </li>
