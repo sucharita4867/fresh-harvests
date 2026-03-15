@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="relative">
       <img src={bg} alt="" />
-      <img src={bg2} className="absolute" alt="" />
+      <img src={bg2} className="absolute top-0 right-0 " alt="" />
     </div>
   );
 };
