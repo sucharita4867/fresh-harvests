@@ -71,10 +71,10 @@ const Navbar = () => {
       <div className="navbar-end gap-4">
         <ul className="flex gap-4">
           <li className="flex ">
-            <img className="border border-red-500" src={heart} alt="" />
+            <img className="" src={heart} alt="" />
             Favorites
           </li>
-          <li className="border border-red-700 flex ">
+          <li className="flex ">
             <img className="border border-red-500 text-red" src={cart} alt="" />
             Cart
           </li>
