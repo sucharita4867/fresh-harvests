@@ -75,7 +75,7 @@ const Navbar = () => {
             Favorites
           </li>
           <li className="flex ">
-            <img className="border border-red-500 text-red" src={cart} alt="" />
+            <img className="text-red" src={cart} alt="" />
             Cart
           </li>
         </ul>
