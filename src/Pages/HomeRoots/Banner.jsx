@@ -10,13 +10,11 @@ const Banner = () => {
         alt="background"
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
       />
-
       <img
         src={bg2}
         alt="green background"
         className="absolute top-0 right-0 h-full w-auto object-cover -z-10"
       />
-
       <div className="relative z-10 pt-40 px-10">
         <h1 className="text-5xl ">
           Fresh Fruits and <br /> Vegetables
