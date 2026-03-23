@@ -15,10 +15,11 @@ const Banner = () => {
         alt="green background"
         className="absolute top-0 right-0 h-full w-auto object-cover -z-10"
       />
-      <div className="relative z-10 pt-40 px-10">
-        <h1 className="text-5xl ">
-          Fresh Fruits and <br /> Vegetables
+      <div className="relative z-10 pt-20 px-10 border border-red-600">
+        <h1 className="text-[#749B3F] text-xl font-medium">
+          Welcome to Fresh Harvest
         </h1>
+        <h3 className="text-5xl font-bold">Fresh Fruits and Vegetables</h3>
       </div>
     </div>
   );
