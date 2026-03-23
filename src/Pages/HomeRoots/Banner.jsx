@@ -37,6 +37,7 @@ const Banner = () => {
           <button className="btn bg-[#ff6a19] hover:bg-[#e85a24] text-white border-none mt-8 px-8">
             Shop Now
           </button>
+          <img src={aro} alt="" />
         </div>
 
         {/* Right Side: Image with Girl */}
