@@ -2,10 +2,12 @@ import React from "react";
 import bg from "./../../assets/Bg.png";
 import bg2 from "./../../assets/Bg (1).png";
 import img from "./../../assets/bannerImg.png";
+import aro from "./../../assets/Clip path group.png";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-[600px] overflow-hidden">
+    <div className="relative w-full h-[700px] overflow-hidden">
+      {/* Background Images */}
       <img
         src={bg}
         alt="background"
@@ -16,16 +18,35 @@ const Banner = () => {
         alt="green background"
         className="absolute top-0 right-0 h-full w-auto object-cover -z-10"
       />
-      <div className="relative z-10 pt-20 px-10 flex  items-center border border-red-600">
-        <div>
-          <h1 className="text-[#749B3F] text-xl font-medium">
+
+      {/* Main Content Container */}
+      <div className="max-w-7xl mx-auto h-full px-10 flex flex-col lg:flex-row items-center justify-between relative z-10">
+        {/* Left Side: Text Content */}
+        <div className="lg:w-1/2 mt-32 lg:mt-0 text-left">
+          <p className="text-[#749B3F] text-lg font-medium bg-[#749B3F1A] inline-block px-4 py-1 rounded-lg mb-4">
             Welcome to Fresh Harvest
+          </p>
+          <h1 className="text-4xl lg:text-6xl font-bold text-primary leading-tight">
+            Fresh Fruits and <br />
+            <span className="text-primary">Vegetables</span>
           </h1>
-          <h3 className="text-5xl font-bold">Fresh Fruits and Vegetables</h3>
+          <p className="text-secondary mt-4 max-w-md">
+            At Fresh Harvests, we are passionate about providing you with the
+            freshest and most flavorful fruits and vegetables.
+          </p>
+          <button className="btn bg-[#ff6a19] hover:bg-[#e85a24] text-white border-none mt-8 px-8">
+            Shop Now
+          </button>
         </div>
-        <figure>
-          <img className="w-[50%] h-[50%]" src={img} alt="" />
-        </figure>
+
+        {/* Right Side: Image with Girl */}
+        <div className="lg:w-1/2 h-full flex items-end justify-center relative">
+          <img
+            className="h-[90%] w-auto object-contain z-20"
+            src={img}
+            alt="Girl with vegetables"
+          />
+        </div>
       </div>
     </div>
   );
