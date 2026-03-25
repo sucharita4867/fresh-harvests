@@ -40,7 +40,6 @@ const Banner = () => {
           <img src={aro} alt="" />
         </div>
 
-        {/* Right Side: Image with Girl */}
         <div className="lg:w-1/2 h-full flex items-end justify-center relative">
           <img
             className="h-[90%] w-auto object-contain z-20"
