@@ -21,7 +21,6 @@ const Banner = () => {
 
       {/* Main Content Container */}
       <div className="max-w-7xl mx-auto h-full px-10 flex flex-col lg:flex-row items-center justify-between relative z-10">
-        {/* Left Side: Text Content */}
         <div className="lg:w-1/2 mt-32 lg:mt-0 text-left">
           <p className="text-[#749B3F] text-lg font-medium bg-[#749B3F1A] inline-block px-4 py-1 rounded-lg mb-4">
             Welcome to Fresh Harvest
